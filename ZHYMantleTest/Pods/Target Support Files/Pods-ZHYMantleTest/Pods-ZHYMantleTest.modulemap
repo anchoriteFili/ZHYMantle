@@ -1,0 +1,6 @@
+framework module Pods_ZHYMantleTest {
+  umbrella header "Pods-ZHYMantleTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
