@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		747F5FE109155D0C2AED161A /* Pods_ZHYMantleTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3273F8ECCCFE74628EF4DE1 /* Pods_ZHYMantleTest.framework */; };
+		F9CE205822D6DC1E009B6B5A /* TempObj.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CE205722D6DC1E009B6B5A /* TempObj.m */; };
 		F9E3F99B22D5CB4200A07DC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E3F99A22D5CB4200A07DC8 /* AppDelegate.m */; };
 		F9E3F99E22D5CB4200A07DC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E3F99D22D5CB4200A07DC8 /* ViewController.m */; };
 		F9E3F9A122D5CB4200A07DC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E3F99F22D5CB4200A07DC8 /* Main.storyboard */; };
@@ -20,6 +21,8 @@
 		09456905E901EF8F8E375F00 /* Pods-ZHYMantleTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHYMantleTest.debug.xcconfig"; path = "Target Support Files/Pods-ZHYMantleTest/Pods-ZHYMantleTest.debug.xcconfig"; sourceTree = "<group>"; };
 		EF5B8B88951E3440A33D04D3 /* Pods-ZHYMantleTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHYMantleTest.release.xcconfig"; path = "Target Support Files/Pods-ZHYMantleTest/Pods-ZHYMantleTest.release.xcconfig"; sourceTree = "<group>"; };
 		F3273F8ECCCFE74628EF4DE1 /* Pods_ZHYMantleTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHYMantleTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9CE205622D6DC1E009B6B5A /* TempObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TempObj.h; sourceTree = "<group>"; };
+		F9CE205722D6DC1E009B6B5A /* TempObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempObj.m; sourceTree = "<group>"; };
 		F9E3F99622D5CB4200A07DC8 /* ZHYMantleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHYMantleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E3F99922D5CB4200A07DC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F9E3F99A22D5CB4200A07DC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 				F9E3F99A22D5CB4200A07DC8 /* AppDelegate.m */,
 				F9E3F99C22D5CB4200A07DC8 /* ViewController.h */,
 				F9E3F99D22D5CB4200A07DC8 /* ViewController.m */,
+				F9CE205622D6DC1E009B6B5A /* TempObj.h */,
+				F9CE205722D6DC1E009B6B5A /* TempObj.m */,
 				F9E3F99F22D5CB4200A07DC8 /* Main.storyboard */,
 				F9E3F9A222D5CB4300A07DC8 /* Assets.xcassets */,
 				F9E3F9A422D5CB4300A07DC8 /* LaunchScreen.storyboard */,
@@ -210,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9E3F99E22D5CB4200A07DC8 /* ViewController.m in Sources */,
+				F9CE205822D6DC1E009B6B5A /* TempObj.m in Sources */,
 				F9E3F9A922D5CB4300A07DC8 /* main.m in Sources */,
 				F9E3F99B22D5CB4200A07DC8 /* AppDelegate.m in Sources */,
 			);
